@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#popup {
+    display: none; /* By default, it's going to be "none" */
+}
