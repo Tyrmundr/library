@@ -12,11 +12,13 @@ const popupDisplay = document.getElementById("popup");
 const btnAdd = document.getElementById("btn-add")
 
 //Book constructor
-function Book(title, author, pages, read) {
-    this.title = form.title.value;
-    this.author = form.author.value;
-    this.pages = form.pages.value;
-    this.read = form.read.value;
+class Book {
+    constructor(title, author, pages, read) {
+        this.title = form.title.value;
+        this.author = form.author.value;
+        this.pages = form.pages.value;
+        this.read = form.read.value;
+    }
 }
 
 //Event Listeners:
